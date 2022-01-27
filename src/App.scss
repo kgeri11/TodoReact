@@ -1,0 +1,23 @@
+@import "./variables/variables.scss";
+
+* {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {  
+  min-height: 100vh;
+  background-color: $blue;
+  
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 150px;
+  grid-row-gap: 20px;
+  width: 90%;
+}
